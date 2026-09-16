@@ -1,0 +1,4 @@
+Name: Ayush
+College: Prestige Institute of Engineering, Management & Research, Indore
+Branch: B.Tech CSE (IoT)
+I am learning Python fundamentals for Data Analytics.
