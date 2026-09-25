@@ -1,0 +1,13 @@
+Order_ID,Date,Product_ID,Product,Category,Region,Quantity,Unit_Price,Sales
+O1001,2026-01-03,P101,Notebook,Stationery,Central,12,120,1440
+O1002,2026-01-04,P104,Wireless Mouse,Electronics,West,8,850,6800
+O1003,2026-01-06,P102,Pen Set,Stationery,North,,75,1500
+O1004,2026-01-08,P105,Desk Lamp,Office,Central,5,1450,7250
+O1005,2026-01-10,P103,Keyboard,Electronics,South,6,,10800
+O1006,2026-01-12,P106,Water Bottle,Accessories,West,15,650,9750
+O1007,2026-01-15,P101,Notebook,,North,18,120,2160
+O1008,2026-01-17,P104,Wireless Mouse,Electronics,Central,10,850,8500
+O1009,2026-01-19,P105,Desk Lamp,Office,South,7,1450,10150
+O1010,2026-01-21,P102,Pen Set,Stationery,West,25,75,1875
+O1011,2026-01-23,P103,Keyboard,Electronics,North,9,1800,16200
+O1012,2026-01-25,P106,Water Bottle,Accessories,Central,11,650,7150

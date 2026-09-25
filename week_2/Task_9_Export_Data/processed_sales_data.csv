@@ -1,0 +1,24 @@
+Order_ID,Product,Category,Region,Quantity,Sales
+O1023,Keyboard,Electronics,Central,10,18000
+O1011,Keyboard,Electronics,North,9,16200
+O1017,Keyboard,Electronics,South,8,14400
+O1035,Keyboard,Electronics,North,7,12600
+O1030,Water Bottle,Accessories,Central,19,12350
+O1028,Desk Lamp,Office,South,8,11600
+O1018,Water Bottle,Accessories,North,17,11050
+O1014,Wireless Mouse,Electronics,North,13,11050
+O1005,Keyboard,Electronics,South,6,10800
+O1009,Desk Lamp,Office,South,7,10150
+O1006,Water Bottle,Accessories,West,15,9750
+O1026,Wireless Mouse,Electronics,Central,11,9350
+O1024,Water Bottle,Accessories,South,14,9100
+O1029,Keyboard,Electronics,West,5,9000
+O1021,Desk Lamp,Office,North,6,8700
+O1008,Wireless Mouse,Electronics,Central,10,8500
+O1036,Water Bottle,Accessories,South,12,7800
+O1032,Wireless Mouse,Electronics,South,9,7650
+O1004,Desk Lamp,Office,Central,5,7250
+O1012,Water Bottle,Accessories,Central,11,7150
+O1002,Wireless Mouse,Electronics,West,8,6800
+O1020,Wireless Mouse,Electronics,South,7,5950
+O1016,Desk Lamp,Office,West,4,5800

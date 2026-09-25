@@ -1,0 +1,37 @@
+Order_ID,Date,Product_ID,Product,Category,Region,Salesperson,Quantity,Unit_Price,Sales
+O1001,2026-01-03,P101,Notebook,Stationery,Central,Asha,12,120,1440
+O1002,2026-01-04,P104,Wireless Mouse,Electronics,West,Rohan,8,850,6800
+O1003,2026-01-06,P102,Pen Set,Stationery,North,Meera,20,75,1500
+O1004,2026-01-08,P105,Desk Lamp,Office,Central,Vikram,5,1450,7250
+O1005,2026-01-10,P103,Keyboard,Electronics,South,Asha,6,1800,10800
+O1006,2026-01-12,P106,Water Bottle,Accessories,West,Rohan,15,650,9750
+O1007,2026-01-15,P101,Notebook,Stationery,North,Meera,18,120,2160
+O1008,2026-01-17,P104,Wireless Mouse,Electronics,Central,Vikram,10,850,8500
+O1009,2026-01-19,P105,Desk Lamp,Office,South,Asha,7,1450,10150
+O1010,2026-01-21,P102,Pen Set,Stationery,West,Rohan,25,75,1875
+O1011,2026-01-23,P103,Keyboard,Electronics,North,Meera,9,1800,16200
+O1012,2026-01-25,P106,Water Bottle,Accessories,Central,Vikram,11,650,7150
+O1013,2026-02-02,P101,Notebook,Stationery,South,Asha,22,120,2640
+O1014,2026-02-04,P104,Wireless Mouse,Electronics,North,Rohan,13,850,11050
+O1015,2026-02-06,P102,Pen Set,Stationery,Central,Meera,30,75,2250
+O1016,2026-02-08,P105,Desk Lamp,Office,West,Vikram,4,1450,5800
+O1017,2026-02-11,P103,Keyboard,Electronics,South,Asha,8,1800,14400
+O1018,2026-02-13,P106,Water Bottle,Accessories,North,Rohan,17,650,11050
+O1019,2026-02-16,P101,Notebook,Stationery,Central,Meera,16,120,1920
+O1020,2026-02-18,P104,Wireless Mouse,Electronics,South,Vikram,7,850,5950
+O1021,2026-02-20,P105,Desk Lamp,Office,North,Asha,6,1450,8700
+O1022,2026-02-22,P102,Pen Set,Stationery,West,Rohan,28,75,2100
+O1023,2026-02-25,P103,Keyboard,Electronics,Central,Meera,10,1800,18000
+O1024,2026-02-27,P106,Water Bottle,Accessories,South,Vikram,14,650,9100
+O1025,2026-03-03,P101,Notebook,Stationery,West,Asha,25,120,3000
+O1026,2026-03-05,P104,Wireless Mouse,Electronics,Central,Rohan,11,850,9350
+O1027,2026-03-07,P102,Pen Set,Stationery,North,Meera,35,75,2625
+O1028,2026-03-09,P105,Desk Lamp,Office,South,Vikram,8,1450,11600
+O1029,2026-03-12,P103,Keyboard,Electronics,West,Asha,5,1800,9000
+O1030,2026-03-14,P106,Water Bottle,Accessories,Central,Rohan,19,650,12350
+O1031,2026-03-17,P101,Notebook,Stationery,North,Meera,14,120,1680
+O1032,2026-03-19,P104,Wireless Mouse,Electronics,South,Vikram,9,850,7650
+O1033,2026-03-22,P105,Desk Lamp,Office,Central,Asha,3,1450,4350
+O1034,2026-03-24,P102,Pen Set,Stationery,West,Rohan,32,75,2400
+O1035,2026-03-27,P103,Keyboard,Electronics,North,Meera,7,1800,12600
+O1036,2026-03-29,P106,Water Bottle,Accessories,South,Vikram,12,650,7800

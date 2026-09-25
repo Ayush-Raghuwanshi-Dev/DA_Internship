@@ -1,0 +1,19 @@
+SALES DATA ANALYSIS SUMMARY
+===========================
+Educational synthetic dataset created specifically for this assignment.
+
+The dataset contains 36 sales records.
+Total sales across the dataset were Rs. 260,940.00.
+Average sales per order were Rs. 7,248.33.
+The maximum single-order sale was Rs. 18,000.00.
+The minimum single-order sale was Rs. 1,440.00.
+Total quantity sold across all orders was 501 units.
+The top-performing product was Keyboard, with total sales of Rs. 81,000.00.
+The region with the highest total sales was South, with Rs. 80,090.00.
+The highest-selling category was Electronics, with Rs. 130,300.00.
+
+Average Sales by Category:
+  - Accessories: Rs. 9,533.33
+  - Electronics: Rs. 10,858.33
+  - Office: Rs. 7,975.00
+  - Stationery: Rs. 2,132.50
