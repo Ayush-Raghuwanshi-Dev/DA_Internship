@@ -1,0 +1,25 @@
+TASK 3: CORRELATION & PROBABILITY SUMMARY
+============================================================
+
+A. CORRELATIONS:
+- Annual_Income_k & Total_Spend (Customer Income vs Overall Spending):
+  Pearson r = 0.5042 (p = 0.0000e+00)
+  Spearman rho = 0.6062
+  Interpretation: Moderate Positive
+
+- Website_Time_Mins & Spending_Score (Website Browsing Time vs Spending Score):
+  Pearson r = 0.9086 (p = 0.0000e+00)
+  Spearman rho = 0.9133
+  Interpretation: Strong Positive
+
+- Age & Total_Spend (Customer Age vs Total Spending):
+  Pearson r = 0.1069 (p = 2.4512e-01)
+  Spearman rho = 0.0246
+  Interpretation: Negligible / Very Weak Positive
+
+B. PROBABILITY CALCULATIONS:
+- P(Total_Spend > $40k): 36.67%
+- P(Churn_Risk = 1): 40.83%
+- P(Churn | Spending_Score < 40): 69.23%
+- P(Churn | Spending_Score >= 40): 27.16%
+- Risk Multiplier: 2.55x

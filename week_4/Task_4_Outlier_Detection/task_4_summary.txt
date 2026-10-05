@@ -1,0 +1,17 @@
+TASK 4: OUTLIER DETECTION SUMMARY
+============================================================
+
+Feature: Annual_Income_k
+  Q1: 53.52, Q3: 79.7, IQR: 26.17
+  Fences: [14.26 to 118.96]
+  IQR Outliers Detected: 2 customers
+  Z-Score Outliers Detected: 2 customers
+  Customer IDs: CUST_1011, CUST_1026
+
+Feature: Total_Spend
+  Q1: 28326.76, Q3: 44198.52, IQR: 15871.76
+  Fences: [4519.12 to 68006.16]
+  IQR Outliers Detected: 3 customers
+  Z-Score Outliers Detected: 2 customers
+  Customer IDs: CUST_1011, CUST_1016, CUST_1055
+

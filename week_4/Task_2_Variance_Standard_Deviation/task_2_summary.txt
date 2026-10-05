@@ -1,0 +1,43 @@
+TASK 2: VARIANCE AND STANDARD DEVIATION SUMMARY
+============================================================
+
+Feature: Annual_Income_k
+  Mean: 69.03
+  Sample Variance (s^2, ddof=1): 583.67
+  Population Variance (sigma^2, ddof=0): 578.8
+  Sample Standard Deviation (s, ddof=1): 24.16
+  Population Standard Deviation (sigma, ddof=0): 24.06
+  Coefficient of Variation: 35.0%
+
+Feature: Spending_Score
+  Mean: 54.03
+  Sample Variance (s^2, ddof=1): 669.09
+  Population Variance (sigma^2, ddof=0): 663.52
+  Sample Standard Deviation (s, ddof=1): 25.87
+  Population Standard Deviation (sigma, ddof=0): 25.76
+  Coefficient of Variation: 47.87%
+
+Feature: Total_Spend
+  Mean: 37839.4
+  Sample Variance (s^2, ddof=1): 249413261.48
+  Population Variance (sigma^2, ddof=0): 247334817.63
+  Sample Standard Deviation (s, ddof=1): 15792.82
+  Population Standard Deviation (sigma, ddof=0): 15726.88
+  Coefficient of Variation: 41.74%
+
+Feature: Website_Time_Mins
+  Mean: 38.82
+  Sample Variance (s^2, ddof=1): 160.53
+  Population Variance (sigma^2, ddof=0): 159.19
+  Sample Standard Deviation (s, ddof=1): 12.67
+  Population Standard Deviation (sigma, ddof=0): 12.62
+  Coefficient of Variation: 32.63%
+
+Feature: Age
+  Mean: 43.22
+  Sample Variance (s^2, ddof=1): 171.53
+  Population Variance (sigma^2, ddof=0): 170.1
+  Sample Standard Deviation (s, ddof=1): 13.1
+  Population Standard Deviation (sigma, ddof=0): 13.04
+  Coefficient of Variation: 30.31%
+

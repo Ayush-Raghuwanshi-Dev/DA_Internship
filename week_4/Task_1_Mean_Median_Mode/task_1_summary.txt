@@ -1,0 +1,33 @@
+TASK 1: CENTRAL TENDENCY MEASURES SUMMARY
+============================================================
+
+Feature: Annual_Income_k
+  Mean: 69.03
+  Median: 67.1
+  Mode: 46.8
+  Skewness: 2.06 (Right-Skewed)
+
+Feature: Spending_Score
+  Mean: 54.03
+  Median: 57.0
+  Mode: 58.0
+  Skewness: -0.14 (Symmetric)
+
+Feature: Total_Spend
+  Mean: 37839.4
+  Median: 36072.57
+  Mode: 11968.1
+  Skewness: 3.27 (Right-Skewed)
+
+Feature: Website_Time_Mins
+  Mean: 38.82
+  Median: 39.35
+  Mode: 21.4
+  Skewness: -0.11 (Symmetric)
+
+Feature: Age
+  Mean: 43.22
+  Median: 44.0
+  Mode: 40.0
+  Skewness: -0.27 (Left-Skewed)
+

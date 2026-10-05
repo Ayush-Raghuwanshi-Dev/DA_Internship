@@ -1,0 +1,12 @@
+TASK 7: EDA DATA INSPECTION & CLEANING REPORT
+=================================================================
+
+1. Initial Raw Records: 125
+2. Duplicates Removed: 5
+3. Final Clean Records: 119
+4. Missing Values Imputed: Annual_Income_k (Median=66.50k), Spending_Score (Mean=54.31), Total_Spend (Median=36127.91)
+
+5. Rationale for Cleaning Choices:
+   - Dropping Duplicates: Repeated customer IDs artificially double record weights and skew sample variance.
+   - Median vs Mean Imputation: Annual Income and Total Spend are positively skewed; mean imputation would artificially bias unobserved records upward. Using median preserves distribution shape.
+   - Domain Bounds Filtering: Negative Age (-5) or negative spend (-999) represent data pipeline errors that would compromise statistical inferences if left untreated.

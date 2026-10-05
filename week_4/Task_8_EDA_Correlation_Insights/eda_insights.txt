@@ -1,0 +1,18 @@
+TASK 8: EXPLORATORY DATA ANALYSIS - CORRELATION & INSIGHTS REPORT
+===========================================================================
+
+Strongest Positive Correlation: Annual_Income_k & Avg_Order_Value (r = +0.9698)
+Strongest Negative Correlation: Annual_Income_k & Satisfaction_Score (r = -0.1298)
+
+INSIGHT 1: Digital Immersion Directly Fuels Customer Willingness to Spend
+Evidence: Website_Time_Mins vs Spending_Score (r = 0.857)
+Analysis: There is a near-linear correlation between website browsing duration and customer spending score. Customers who spend 40+ minutes per session are actively engaging with product catalogs, reviews, and interactive galleries, translating directly into high retail conversion rather than passive idle time.
+
+INSIGHT 2: Customer Income Dictates Basket Size (AOV), Not Visit Frequency
+Evidence: Annual_Income_k vs Avg_Order_Value (r = 0.970) vs Purchase_Frequency (r = -0.028)
+Analysis: Higher-income consumers exhibit a strong correlation with Average Order Value, meaning their shopping baskets contain premium, higher-ticket items. In contrast, correlation between income and purchase frequency is near zero, proving that affluent customers shop with the same cadence as average earners, but significantly outspend them per transaction.
+
+INSIGHT 3: Customer Churn is Behavioral and Experience-Driven, Independent of Demographics
+Evidence: Age vs Total_Spend (r = 0.107) | Satisfaction_Score vs Total_Spend (Positive alignment)
+Analysis: Demographic attributes like Age and City show negligible correlation with overall spend and satisfaction. Instead, churn risk is overwhelmingly concentrated among customers experiencing low satisfaction ratings (<=2) and depressed spending scores (<40), indicating that product quality and customer support are the primary retention drivers, not demographic factors.
+
