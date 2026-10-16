@@ -1,0 +1,13 @@
+TASK 5: POWER BI VISUALIZATION SPECIFICATIONS SUMMARY
+======================================================================
+
+1. KPI Summary Cards (kpi_summary_cards.png):
+   - Total Sales (INR 45.60M), Net Profit (INR 8.90M), Margin (19.5%), Orders (1,200)
+2. Clustered Column & Line Chart (bar_sales_profit_by_category.png):
+   - Technology: INR 25.6M (26.3% margin) | Furniture: INR 14.8M (6.4% margin) | Office Supplies: INR 5.2M (23.5% margin)
+3. Monthly Trend Line Chart (line_monthly_sales_trend.png):
+   - 2026 YTD trajectory tracking +35.26% above 2025 baseline
+4. Donut Chart (donut_sales_by_segment.png):
+   - Consumer (52.1%), Corporate (31.2%), Home Office (16.7%)
+5. Matrix Grid (matrix_category_subcategory.png):
+   - Top 10 sub-categories with sales, profit, margin %, and order counts

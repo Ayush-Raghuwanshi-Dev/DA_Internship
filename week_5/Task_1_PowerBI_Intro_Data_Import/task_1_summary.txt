@@ -1,0 +1,82 @@
+TASK 1: POWER BI INTRODUCTION & DATA INGESTION AUDIT SUMMARY
+======================================================================
+
+Table: Fact_Sales
+  Dimensions: 1200 rows x 19 columns
+  Total Missing Values: 0
+  Columns Audit:
+    - Order_ID               | object     | Nulls: 0   | Sample: ORD-2024-10001
+    - Order_Date             | object     | Nulls: 0   | Sample: 2024-06-25
+    - Ship_Date              | object     | Nulls: 0   | Sample: 2024-06-28
+    - Date_Key               | int64      | Nulls: 0   | Sample: 20240625
+    - Customer_Key           | int64      | Nulls: 0   | Sample: 60
+    - Product_Key            | int64      | Nulls: 0   | Sample: 105
+    - Region_Key             | int64      | Nulls: 0   | Sample: 3
+    - Ship_Mode              | object     | Nulls: 0   | Sample: Standard Class
+    - Order_Priority         | object     | Nulls: 0   | Sample: Medium
+    - Quantity               | int64      | Nulls: 0   | Sample: 2
+    - Unit_Price             | float64    | Nulls: 0   | Sample: 6500.0
+    - Unit_Cost              | float64    | Nulls: 0   | Sample: 3900.0
+    - Discount_Rate          | float64    | Nulls: 0   | Sample: 0.05
+    - Discount_Amount        | float64    | Nulls: 0   | Sample: 650.0
+    - Sales_Amount           | float64    | Nulls: 0   | Sample: 12350.0
+    - Shipping_Cost          | float64    | Nulls: 0   | Sample: 150.0
+    - Total_Cost             | float64    | Nulls: 0   | Sample: 7950.0
+    - Profit                 | float64    | Nulls: 0   | Sample: 4400.0
+    - Profit_Margin_Pct      | float64    | Nulls: 0   | Sample: 35.63
+
+Table: Dim_Customer
+  Dimensions: 120 rows x 9 columns
+  Total Missing Values: 0
+  Columns Audit:
+    - Customer_Key           | int64      | Nulls: 0   | Sample: 1
+    - Customer_ID            | object     | Nulls: 0   | Sample: CUST-1001
+    - Customer_Name          | object     | Nulls: 0   | Sample: Isha Iyer
+    - Segment                | object     | Nulls: 0   | Sample: Corporate
+    - City                   | object     | Nulls: 0   | Sample: Bengaluru
+    - State                  | object     | Nulls: 0   | Sample: Karnataka
+    - Country                | object     | Nulls: 0   | Sample: India
+    - Postal_Code            | int64      | Nulls: 0   | Sample: 560001
+    - Region_Key             | int64      | Nulls: 0   | Sample: 2
+
+Table: Dim_Product
+  Dimensions: 30 rows x 7 columns
+  Total Missing Values: 0
+  Columns Audit:
+    - Product_Key            | int64      | Nulls: 0   | Sample: 101
+    - Product_ID             | object     | Nulls: 0   | Sample: PROD-TECH-01
+    - Product_Name           | object     | Nulls: 0   | Sample: Smartphone Ultra 5G
+    - Category               | object     | Nulls: 0   | Sample: Technology
+    - Sub_Category           | object     | Nulls: 0   | Sample: Phones
+    - Unit_Price             | float64    | Nulls: 0   | Sample: 45000.0
+    - Cost_Price             | float64    | Nulls: 0   | Sample: 31500.0
+
+Table: Dim_Region
+  Dimensions: 5 rows x 5 columns
+  Total Missing Values: 0
+  Columns Audit:
+    - Region_Key             | int64      | Nulls: 0   | Sample: 1
+    - Region_Name            | object     | Nulls: 0   | Sample: North
+    - Regional_Manager       | object     | Nulls: 0   | Sample: Vikram Malhotra
+    - Target_Quota           | int64      | Nulls: 0   | Sample: 2500000
+    - Headquarters           | object     | Nulls: 0   | Sample: Delhi
+
+Table: Dim_Date
+  Dimensions: 1096 rows x 13 columns
+  Total Missing Values: 0
+  Columns Audit:
+    - Date                   | object     | Nulls: 0   | Sample: 2024-01-01
+    - Date_Key               | int64      | Nulls: 0   | Sample: 20240101
+    - Year                   | int64      | Nulls: 0   | Sample: 2024
+    - Quarter                | object     | Nulls: 0   | Sample: Q1
+    - Quarter_Year           | object     | Nulls: 0   | Sample: Q1 2024
+    - Month_Num              | int64      | Nulls: 0   | Sample: 1
+    - Month_Name             | object     | Nulls: 0   | Sample: January
+    - Month_Short            | object     | Nulls: 0   | Sample: Jan
+    - Month_Year             | object     | Nulls: 0   | Sample: Jan 2024
+    - Week_Num               | int64      | Nulls: 0   | Sample: 1
+    - Day_Of_Week            | object     | Nulls: 0   | Sample: Monday
+    - Day_Of_Week_Num        | int64      | Nulls: 0   | Sample: 1
+    - Is_Weekend             | object     | Nulls: 0   | Sample: Weekday
+
+Star Schema Key Integrity: Verified 100% Referential Integrity across all 4 relationships.

@@ -1,0 +1,15 @@
+TASK 2: POWER QUERY ETL DATA CLEANING & PREPARATION SUMMARY
+======================================================================
+
+1. Raw Ingestion Rows: 1220
+2. Duplicate Orders Removed: 20
+3. Unlinked Null Customer Records Filtered: 8
+4. Missing Profits Imputed: 12 (via Net Sales - Total Cost)
+5. Obsolete Columns Purged: ETL_Batch_ID, Sys_Load_Timestamp, Legacy_System_Flag
+6. Final Validated Records: 1192 (0 missing, 0 duplicates)
+7. Retention Rate: 97.70%
+
+8. Feature Engineering:
+   - Delivery_Days: Date difference between Ship_Date and Order_Date
+   - Profitability_Status: High Margin (>=25%), Standard Margin, Low Margin, Loss-Making (<0%)
+   - Order_Size_Category: Bulk Order (6+), Multi-Item (2-5), Single Item (1)

@@ -1,0 +1,31 @@
+Product_Key,Product_ID,Product_Name,Category,Sub_Category,Unit_Price,Cost_Price
+101,PROD-TECH-01,Smartphone Ultra 5G,Technology,Phones,45000.0,31500.0
+102,PROD-TECH-02,Pro Workstation Laptop 16,Technology,Laptops,85000.0,59500.0
+103,PROD-TECH-03,Noise Cancelling Headphones,Technology,Accessories,12000.0,7200.0
+104,PROD-TECH-04,Curved Gaming Monitor 32-in,Technology,Accessories,32000.0,22400.0
+105,PROD-TECH-05,Mechanical Wireless Keyboard,Technology,Accessories,6500.0,3900.0
+106,PROD-TECH-06,Smartwatch Fitness Tracker,Technology,Phones,15000.0,9000.0
+107,PROD-TECH-07,Enterprise Laser Printer,Technology,Machines,28000.0,21000.0
+108,PROD-TECH-08,Tablet Pro 11-inch,Technology,Phones,52000.0,39000.0
+109,PROD-TECH-09,External SSD 2TB,Technology,Storage,14000.0,9100.0
+110,PROD-TECH-10,4K Conference Webcam,Technology,Accessories,8500.0,5100.0
+201,PROD-FURN-01,Executive Ergonomic Chair,Furniture,Chairs,18500.0,13875.0
+202,PROD-FURN-02,Motorized Standing Desk,Furniture,Desks,34000.0,27200.0
+203,PROD-FURN-03,Modular 3-Tier Bookshelf,Furniture,Bookcases,12500.0,9375.0
+204,PROD-FURN-04,Mesh Task Office Chair,Furniture,Chairs,8500.0,5950.0
+205,PROD-FURN-05,Hardwood Conference Table,Furniture,Tables,65000.0,55250.0
+206,PROD-FURN-06,Acoustic Privacy Panel,Furniture,Furnishings,7500.0,5250.0
+207,PROD-FURN-07,Leather Guest Lounge Chair,Furniture,Chairs,22000.0,16500.0
+208,PROD-FURN-08,Mobile Under-Desk Pedestal,Furniture,Storage,9500.0,7125.0
+209,PROD-FURN-09,Minimalist Coffee Table,Furniture,Tables,11000.0,8250.0
+210,PROD-FURN-10,Ergonomic Footrest & Mat,Furniture,Furnishings,3500.0,2100.0
+301,PROD-OFF-01,High-Volume Paper Shredder,Office Supplies,Appliances,14500.0,10875.0
+302,PROD-OFF-02,Heavy-Duty Lever Arch Binders,Office Supplies,Binders,1200.0,660.0
+303,PROD-OFF-03,Premium Executive Pen Set,Office Supplies,Art,2800.0,1540.0
+304,PROD-OFF-04,Steel 4-Drawer File Cabinet,Office Supplies,Storage,16500.0,12375.0
+305,PROD-OFF-05,Thermal Laminating Machine,Office Supplies,Appliances,6800.0,4760.0
+306,PROD-OFF-06,Recycled Copier Paper (5-Ream),Office Supplies,Paper,1950.0,1365.0
+307,PROD-OFF-07,Heavy-Duty Packaging Tape Roll,Office Supplies,Fasteners,850.0,425.0
+308,PROD-OFF-08,Magnetic Whiteboard 4x3 ft,Office Supplies,Envelopes,5500.0,3575.0
+309,PROD-OFF-09,Desktop Organizer Caddy,Office Supplies,Storage,1600.0,880.0
+310,PROD-OFF-10,Eco Gel Pens Box of 50,Office Supplies,Art,950.0,475.0

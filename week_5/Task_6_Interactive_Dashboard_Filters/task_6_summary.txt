@@ -1,0 +1,17 @@
+TASK 6: POWER BI INTERACTIVE DASHBOARD & FILTERS SPECIFICATION
+======================================================================
+
+1. Canvas Specifications: Full HD 1920x1080 (16:9 Widescreen), Modern Dark Slate Theme.
+2. Executive KPI Cards (Row 1):
+   - Total Sales (INR 45.60M), Net Profit (INR 8.90M), Profit Margin (19.5%), AOV (INR 38,003).
+3. Interactive Slicers:
+   - Calendar Year (2024, 2025, 2026)
+   - Geographic Territory (North, South, East, West, Central)
+   - Product Category (Technology, Furniture, Office Supplies)
+   - Customer Segment (Consumer, Corporate, Home Office)
+4. Core Visual Grid (4 Visuals):
+   - Visual 1: Monthly Sales Revenue Trajectory (2025 vs 2026 SPLY)
+   - Visual 2: Customer Segment Revenue Contribution Donut Chart
+   - Visual 3: Category Revenue vs Net Profit & Profit Margin %
+   - Visual 4: Regional Sales Performance vs Target Quotas
+5. Interactivity Mechanics: Slicers cross-filter all 4 visuals; responsive drill-through enabled.

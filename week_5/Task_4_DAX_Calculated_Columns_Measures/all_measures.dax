@@ -1,0 +1,218 @@
+// ==============================================================================
+// DAX MEASURES & CALCULATED COLUMNS SPECIFICATION LIBRARY
+// Assignment: Week 5 - Power BI & Business Intelligence (Task 4)
+// Student: Ayush | Prestige Institute of Engineering, Management & Research, Indore
+// ==============================================================================
+
+// ------------------------------------------------------------------------------
+// 1. CORE FINANCIAL & REVENUE MEASURES
+// ------------------------------------------------------------------------------
+
+Total Sales = 
+SUM(Fact_Sales[Sales_Amount])
+/* 
+Returns the aggregate net sales amount across all active filter contexts.
+Format: Currency ($ or INR), 2 decimal places.
+*/
+
+Total Cost = 
+SUM(Fact_Sales[Total_Cost])
+/* 
+Returns the total cost including manufacturing cost and shipping expenses.
+Format: Currency, 2 decimal places.
+*/
+
+Total Profit = 
+[Total Sales] - [Total Cost]
+/* 
+Computes gross commercial profit. Leverages measure branching for consistency.
+Format: Currency, 2 decimal places.
+*/
+
+Profit Margin % = 
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+/* 
+Computes the overall profit margin percentage.
+Safe division protects against divide-by-zero errors.
+Format: Percentage (0.0%).
+*/
+
+Total Quantity = 
+SUM(Fact_Sales[Quantity])
+/* 
+Total physical units sold across transactions.
+Format: Whole Number (#,##0).
+*/
+
+
+// ------------------------------------------------------------------------------
+// 2. TRANSACTIONAL & STATISTICAL METRICS
+// ------------------------------------------------------------------------------
+
+Total Orders = 
+DISTINCTCOUNT(Fact_Sales[Order_ID])
+/* 
+Distinct count of unique checkout transactions.
+Format: Whole Number (#,##0).
+*/
+
+Average Order Value = 
+DIVIDE(
+    [Total Sales],
+    [Total Orders],
+    0
+)
+/* 
+Mean revenue generated per discrete customer transaction (AOV).
+Format: Currency, 2 decimal places.
+*/
+
+Average Units per Order = 
+DIVIDE(
+    [Total Quantity],
+    [Total Orders],
+    0
+)
+/* 
+Mean basket quantity per order.
+Format: Decimal, 1 decimal place.
+*/
+
+Max Order Value = 
+MAXX(
+    Fact_Sales,
+    Fact_Sales[Sales_Amount]
+)
+/* 
+Identifies the highest individual transaction value in the current filter context.
+Format: Currency, 2 decimal places.
+*/
+
+Min Order Value = 
+MINX(
+    Fact_Sales,
+    Fact_Sales[Sales_Amount]
+)
+/* 
+Identifies the lowest individual transaction value in the current filter context.
+Format: Currency, 2 decimal places.
+*/
+
+
+// ------------------------------------------------------------------------------
+// 3. TIME INTELLIGENCE & YEAR-OVER-YEAR (YOY) GROWTH MEASURES
+// ------------------------------------------------------------------------------
+
+Sales YTD = 
+TOTALYTD(
+    [Total Sales],
+    Dim_Date[Date]
+)
+/* 
+Accumulates Year-to-Date gross sales from January 1st to the current date.
+Requires an active relationship with a continuous Dim_Date calendar table.
+Format: Currency, 2 decimal places.
+*/
+
+Sales Previous Year = 
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(Dim_Date[Date])
+)
+/* 
+Evaluates Total Sales over the identical calendar interval in the preceding year (SPLY).
+Enables like-for-like temporal performance comparisons.
+Format: Currency, 2 decimal places.
+*/
+
+YoY Sales Growth % = 
+VAR _CurrentYearSales = [Total Sales]
+VAR _PriorYearSales = [Sales Previous Year]
+RETURN
+    DIVIDE(
+        _CurrentYearSales - _PriorYearSales,
+        _PriorYearSales,
+        0
+    )
+/* 
+Computes the percentage expansion or contraction in sales revenue compared to prior year.
+Format: Percentage (+0.0% / -0.0%).
+*/
+
+Profit Previous Year = 
+CALCULATE(
+    [Total Profit],
+    SAMEPERIODLASTYEAR(Dim_Date[Date])
+)
+/* 
+Evaluates Total Profit for the identical period in the prior year.
+Format: Currency, 2 decimal places.
+*/
+
+YoY Profit Growth % = 
+VAR _CurrentProfit = [Total Profit]
+VAR _PriorProfit = [Profit Previous Year]
+RETURN
+    DIVIDE(
+        _CurrentProfit - _PriorProfit,
+        _PriorProfit,
+        0
+    )
+/* 
+Computes the percentage expansion in net commercial profit.
+Format: Percentage (+0.0% / -0.0%).
+*/
+
+
+// ------------------------------------------------------------------------------
+// 4. ADVANCED DYNAMIC RANKING & CONDITIONAL KPI MEASURES
+// ------------------------------------------------------------------------------
+
+Top 5 Products Sales = 
+CALCULATE(
+    [Total Sales],
+    KEEPFILTERS(
+        TOPN(
+            5,
+            ALLSELECTED(Dim_Product[Product_Name]),
+            [Total Sales],
+            DESC
+        )
+    )
+)
+/* 
+Dynamically restricts revenue calculations to the top 5 highest-grossing products.
+*/
+
+Margin Health Indicator = 
+SWITCH(
+    TRUE(),
+    [Profit Margin %] >= 0.25, "Green (Target Met)",
+    [Profit Margin %] >= 0.10, "Amber (Acceptable)",
+    "Red (Margin Warning)"
+)
+/* 
+Used for dynamic color formatting and SVG indicator badges in table visuals.
+*/
+
+
+// ------------------------------------------------------------------------------
+// 5. CALCULATED COLUMNS (ROW CONTEXT)
+// ------------------------------------------------------------------------------
+
+// Fact_Sales[Gross_Revenue]
+// Computed during data load, stored in columnar database.
+Gross_Revenue = Fact_Sales[Unit_Price] * Fact_Sales[Quantity]
+
+// Fact_Sales[Margin_Health_Tier]
+// Categorizes individual line-item profitability.
+Margin_Health_Tier = 
+IF(
+    Fact_Sales[Profit_Margin_Pct] >= 25.0,
+    "Healthy Margin (>=25%)",
+    "Compressed Margin (<25%)"
+)

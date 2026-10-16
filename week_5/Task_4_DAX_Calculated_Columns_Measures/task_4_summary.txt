@@ -1,0 +1,55 @@
+TASK 4: DAX CALCULATED COLUMNS & MEASURES SUMMARY REPORT
+===========================================================================
+
+1. CORE REVENUE & TRANSACTION MEASURES:
+- Total Sales               : INR 45,603,982.50
+  Formula : SUM(Fact_Sales[Sales_Amount])
+  Purpose : Gross merchandise revenue
+
+- Total Cost                : INR 36,699,560.00
+  Formula : SUM(Fact_Sales[Total_Cost])
+  Purpose : Manufacturing + logistics cost
+
+- Total Profit              : INR 8,904,422.50
+  Formula : [Total Sales] - [Total Cost]
+  Purpose : Net commercial gross profit
+
+- Profit Margin %           : 19.53%
+  Formula : DIVIDE([Total Profit], [Total Sales], 0)
+  Purpose : Overall margin health ratio
+
+- Total Quantity Sold       : 2,897 units
+  Formula : SUM(Fact_Sales[Quantity])
+  Purpose : Physical volume throughput
+
+- Total Distinct Orders     : 1,200 orders
+  Formula : DISTINCTCOUNT(Fact_Sales[Order_ID])
+  Purpose : Unique customer transactions
+
+- Average Order Value (AOV) : INR 38,003.32
+  Formula : DIVIDE([Total Sales], [Total Orders], 0)
+  Purpose : Mean revenue per transaction
+
+- Average Units / Order     : 2.41 units
+  Formula : DIVIDE([Total Quantity], [Total Orders], 0)
+  Purpose : Mean basket quantity
+
+- Max Single Order Value    : INR 484,500.00
+  Formula : MAXX(Fact_Sales, Fact_Sales[Sales_Amount])
+  Purpose : Highest individual basket
+
+- Min Single Order Value    : INR 680.00
+  Formula : MINX(Fact_Sales, Fact_Sales[Sales_Amount])
+  Purpose : Lowest individual basket
+
+2. TIME INTELLIGENCE & YOY GROWTH:
+- 2024 Sales (Base Year) : INR 16,981,510.00
+- 2025 Sales (Prior SPLY): INR 12,166,287.50 (YoY Growth: -28.36%)
+- 2026 Sales (Current)   : INR 16,456,185.00 (YoY Growth: +35.26%)
+- 2025 vs 2024 Profit YoY: -26.79%
+- 2026 vs 2025 Profit YoY: +26.17%
+
+3. CATEGORY MARGIN BREAKDOWN:
+- Furniture       : Sales = INR 14,760,775.00 | Profit = INR 947,460.00 | Margin = 6.42%
+- Office Supplies : Sales = INR 5,207,257.50 | Profit = INR 1,223,762.50 | Margin = 23.50%
+- Technology      : Sales = INR 25,635,950.00 | Profit = INR 6,733,200.00 | Margin = 26.26%

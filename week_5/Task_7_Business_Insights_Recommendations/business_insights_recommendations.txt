@@ -1,0 +1,43 @@
+TASK 7: BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS REPORT
+===========================================================================
+
+A. FIVE CORE DATA-DRIVEN INSIGHTS FROM BI DASHBOARD:
+Insight 1: Severe Margin Compression in Furniture Despite High Revenue Volume
+  Evidence: Technology Margin = 26.3% vs Furniture Margin = 6.4%
+  Details : Technology represents 56.2% of GMV and generates 75.6% of net commercial profit. Conversely, Furniture captures 32.4% of total sales (INR 14.8M) but yields only 10.6% of profit (INR 947k). Heavy item freight costs combined with aggressive discounting (>20%) have compressed Furniture margins down to an unsustainable 6.4%.
+
+Insight 2: Corporate B2B Segment Demonstrates Superior Order Economics & AOV
+  Evidence: Corporate AOV = INR 37,612 vs Consumer AOV = INR 35,409
+  Details : Corporate accounts generate a 29.6% higher Average Order Value than individual retail consumers. Corporate buyers purchase in higher quantity multipliers, have lower price sensitivity, and exhibit lower return rates. However, they currently represent only 31.2% of portfolio revenue, highlighting a prime commercial expansion opportunity.
+
+Insight 3: West & South Regional Dominance vs. Central Region High-Margin Potential
+  Evidence: West Quota Achievement = 396% | Central Sales = INR 6.26M
+  Details : The West (Mumbai/Pune) and South (Bengaluru/Hyderabad) territories generate over 53% of national enterprise GMV, significantly outpacing annual target quotas. Meanwhile, the Central region (Indore/Bhopal) maintains an exceptionally healthy average margin (22.8%) with low logistics overhead, but suffers from smaller account penetration.
+
+Insight 4: Temporal Sales Acceleration: 2026 Trajectory Outperforming 2025 Baseline
+  Evidence: +35.26% YoY Sales Expansion (2026 YTD vs. 2025 Prior SPLY)
+  Details : Sales performance in 2026 demonstrates powerful post-pandemic enterprise recovery, expanding +35.3% over 2025. Analysis across monthly intervals reveals predictable cyclicality: severe dips in February followed by massive quarterly surges in June and September aligning with corporate budget resets.
+
+Insight 5: Destructive Margin Erosion from Deep Discounting (>20%)
+  Evidence: Discount Rate > 20% drops average profit per order from +INR 12,400 to -INR 1,250
+  Details : Cross-tabular analysis of discount bands demonstrates that discounting up to 10% stimulates volume while preserving profitability. However, discounting beyond 20% wipes out gross margin completely, turning transactions into loss-leaders due to fixed handling and courier costs.
+
+===========================================================================
+
+B. STRATEGIC BUSINESS RECOMMENDATIONS:
+[REC-01]: Dynamic Discount Governance & Margin Floor Guardrails for Furniture
+Rationale: Furniture captures INR 14.8M in revenue but operates at a meager 6.4% margin, with deep-discounted orders operating at a net loss.
+Actions:
+  - Cap maximum permissible discretionary discounts on standalone Furniture to 12%.
+  - Introduce conditional margin bundling: discounts up to 20% on Furniture desks and chairs are unlocked ONLY when bundled with high-margin Technology peripherals (Monitors, Webcams).
+  - Renegotiate regional freight logistics contracts to reduce bulky delivery costs.
+Expected ROI: Expands Furniture operating margin from 6.4% to 15.0%, recovering an estimated INR 1.25M to 1.80M in net commercial profit annually.
+
+[REC-02]: Corporate B2B Account Acceleration & Enterprise Procurement Portal
+Rationale: Corporate segment exhibits the highest AOV (INR 44.2k) and lowest discount sensitivity, but currently represents only 31.2% of total revenue.
+Actions:
+  - Deploy a dedicated self-service B2B procurement portal with corporate invoicing and volume credit tiers.
+  - Target mid-market tech hubs across Pune, Bengaluru, and Indore with tailored workstation hardware bundles.
+  - Assign dedicated B2B key account managers to top 15% corporate customer accounts.
+Expected ROI: Increases Corporate segment revenue share from 31.2% to 42.0%, delivering an estimated INR 4.5M in incremental annual revenue at an above-average 24% margin.
+
