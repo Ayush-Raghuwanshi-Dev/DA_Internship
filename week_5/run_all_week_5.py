@@ -61,15 +61,22 @@ def main():
             print(f"\nPipeline halted due to error in: {desc}")
             sys.exit(1)
 
+    # Generate screenshots for report
+    screenshots_script = base_dir / "generate_screenshots.py"
+    if screenshots_script.exists():
+        ok = run_script(screenshots_script, "Step 8: Output Screenshots Capture")
+        if ok:
+            success_count += 1
+
     # Check if report generator exists
     report_script = base_dir / "generate_report.py"
     if report_script.exists():
-        ok = run_script(report_script, "Master Step: PDF Report Compilation")
+        ok = run_script(report_script, "Step 9: PDF Report Compilation")
         if ok:
             success_count += 1
 
     total_time = time.time() - start_time
-    total_steps = len(pipeline) + (1 if report_script.exists() else 0)
+    total_steps = len(pipeline) + (1 if screenshots_script.exists() else 0) + (1 if report_script.exists() else 0)
     print("\n" + "*" * 85)
     print(f"PIPELINE COMPLETED! {success_count}/{total_steps} steps executed successfully.")
     print(f"Total Pipeline Runtime: {total_time:.2f} seconds.")
