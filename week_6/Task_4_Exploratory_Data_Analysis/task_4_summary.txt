@@ -1,0 +1,51 @@
+TASK 4: EXPLORATORY DATA ANALYSIS (EDA) COMPREHENSIVE REPORT
+================================================================================
+1. DESCRIPTIVE STATISTICS OVERVIEW (N = 1492 transactions):
+       Metric     Mean   Median    Mode  Std_Dev     Variance  Skewness  Kurtosis     Min      Max
+ Sales_Amount 47005.19 25000.00 64600.0 69152.84 4.782116e+09      3.64     20.03   455.0 680000.0
+       Profit  9398.16  3150.00  1850.0 17633.46 3.109391e+08      4.36     27.95 -7850.0 191850.0
+     Quantity     2.50     2.00     1.0     1.54 2.390000e+00      1.29      1.69     1.0      8.0
+Discount_Rate     0.07     0.05     0.0     0.07 0.000000e+00      1.06      1.00     0.0      0.3
+   Unit_Price 19636.03 12500.00 12500.0 21478.35 4.613197e+08      1.82      3.04   650.0  85000.0
+Delivery_Days     2.95     3.00     3.0     1.09 1.190000e+00      0.14     -0.47     1.0      5.0
+
+2. IQR OUTLIER DETECTION RESULTS:
+- Sales_Amount : 131 outliers (8.78%) | Bounds: [-69687.5, 133212.5]
+- Profit       : 156 outliers (10.46%) | Bounds: [-12810.0, 23370.0]
+- Quantity     : 27 outliers (1.81%) | Bounds: [-2.0, 6.0]
+
+3. CORRELATION ANALYSIS (PEARSON):
+               Sales_Amount  Profit  Quantity  Discount_Rate  Unit_Price  Delivery_Days
+Sales_Amount          1.000   0.947     0.476         -0.137       0.753         -0.020
+Profit                0.947   1.000     0.423         -0.218       0.695         -0.012
+Quantity              0.476   0.423     1.000         -0.216       0.025         -0.044
+Discount_Rate        -0.137  -0.218    -0.216          1.000      -0.022          0.006
+Unit_Price            0.753   0.695     0.025         -0.022       1.000          0.033
+Delivery_Days        -0.020  -0.012    -0.044          0.006       0.033          1.000
+
+Key Correlation Insights:
+- Sales_Amount & Profit       : r = 0.947 (Strong positive correlation)
+- Discount_Rate & Profit      : r = -0.218 (Negative impact on net margin)
+- Quantity & Sales_Amount     : r = 0.476 (Moderate positive correlation)
+
+4. CATEGORY PERFORMANCE BREAKDOWN:
+       Category  Total_Sales  Total_Profit  Order_Count  Margin_Pct
+      Furniture   22799975.0     2071875.0          488        9.09
+Office Supplies    2596890.0      668850.0          487       25.76
+     Technology   44734875.0    11281325.0          517       25.22
+
+5. CUSTOMER SEGMENT PERFORMANCE BREAKDOWN:
+Customer_Segment  Total_Sales  Total_Profit  Order_Count  Avg_Order_Value  Margin_Pct
+        Consumer   15302802.5     2537522.5          570         26847.02       16.58
+       Corporate   40649770.0     8799620.0          559         72718.73       21.65
+     Home Office   14179167.5     2684907.5          363         39061.07       18.94
+
+6. REGIONAL PERFORMANCE BREAKDOWN:
+ Region  Total_Sales  Total_Profit  Order_Count  Margin_Pct
+Central    6904687.5     1484097.5          144       21.49
+   East    9858957.5     2138607.5          195       21.69
+  North   16739612.5     3323372.5          327       19.85
+  South   21139562.5     4219332.5          437       19.96
+   West   15488920.0     2856640.0          389       18.44
+================================================================================
+STATUS: TASK 4 COMPLETED SUCCESSFULLY!

@@ -1,0 +1,34 @@
+TASK 5: DATA VISUALIZATION SUMMARY REPORT
+================================================================================
+Generated 5 publication-grade 300 DPI visualizations in Visualizations/charts/:
+
+1. chart_1_sales_profit_by_category.png:
+   - Type       : Dual-Axis Clustered Bar & Margin Percentage Line Chart
+   - Dimensions : Category vs Gross Revenue (INR M), Net Profit (INR M), Margin %
+   - Insight    : Technology dominates with INR 44.7M revenue (25.2% margin);
+                  Furniture suffers margin compression at 9.1% (INR 2.07M profit).
+
+2. chart_2_monthly_sales_trend.png:
+   - Type       : Temporal Multi-Line Progression with 3-Month Rolling Average
+   - Dimensions : Calendar Months (2024 to 2026) vs Monthly Revenue & Profit
+   - Insight    : Highlights seasonal quarterly procurement peaks in June and September.
+
+3. chart_3_segment_order_value_violin.png:
+   - Type       : Distribution Box & Whisker Plot
+   - Dimensions : Customer Segment vs Transaction Order Value (INR k)
+   - Insight    : Corporate buyers exhibit significantly higher median transaction size
+                  (AOV: INR 72.7k) compared to Consumer retail (INR 26.8k).
+
+4. chart_4_correlation_heatmap.png:
+   - Type       : Seaborn Pearson Correlation Heatmap
+   - Dimensions : 6x6 Matrix across Financial and Operational Metrics
+   - Insight    : Confirms strong Sales-Profit alignment (r = 0.95) and negative margin
+                  impact of aggressive discounting (r = -0.22).
+
+5. chart_5_discount_vs_profit_margin_scatter.png:
+   - Type       : Scatter Plot with Margin Erosion Linear Trendline
+   - Dimensions : Discount Rate (%) vs Profit Margin (%)
+   - Insight    : Illustrates that discounts exceeding 20% systematically push orders
+                  into the loss-making negative profit zone.
+================================================================================
+STATUS: TASK 5 COMPLETED SUCCESSFULLY!
