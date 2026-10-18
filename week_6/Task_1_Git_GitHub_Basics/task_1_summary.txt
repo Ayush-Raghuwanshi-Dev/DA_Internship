@@ -8,8 +8,8 @@ TASK 1: GIT & GITHUB BASICS VERIFICATION SUMMARY
 6. Repository Status    : Connected, configured, and tracked under Git VCS.
 
 Recent Commits Verified:
-1d559d2 feat(week_5): create simple beginner student assignment PDF report with details header, questions, and screenshots of all outputs
-9c3cf5f Add Week 5: Power BI & Business Intelligence tasks, star schema model, dashboard, and report
-7a6c0ea Add Week 4: Statistics, Data Visualization & EDA tasks, charts, and report
+5a38ba7 docs(week_6): complete capstone project documentation, presentation deck, output screenshots, and final pdf report (Task 8)
+7d9b74d feat(week_6): build interactive power bi dashboard, business insights, and strategic recommendations (Tasks 6-7)
+3580862 feat(week_6): implement comprehensive exploratory data analysis and data visualization (Tasks 4-5)
 ================================================================================
 STATUS: TASK 1 COMPLETED SUCCESSFULLY!
