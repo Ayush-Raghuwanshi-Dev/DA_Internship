@@ -1,0 +1,27 @@
+Column_Name,Data_Type,Description,Example
+Order_ID,String,Unique identifier for each retail transaction,ORD-2025-10142
+Order_Date,Date (YYYY-MM-DD),Calendar timestamp of transaction creation,2025-06-14
+Ship_Date,Date (YYYY-MM-DD),Date of carrier handover and order fulfillment,2025-06-17
+Ship_Mode,String,"Shipping fulfillment tier (Standard, Second, First, Same Day)",Standard Class
+Customer_ID,String,Unique client primary identifier,CUST-1004
+Customer_Name,String,Full registered name of purchasing client,Isha Iyer
+Customer_Segment,String,"Commercial customer tier (Consumer, Corporate, Home Office)",Corporate
+City,String,Metropolitan delivery destination,Bengaluru
+State,String,State or territorial jurisdiction,Karnataka
+Region,String,"Macro sales territory (North, South, East, West, Central)",South
+Product_ID,String,Catalog Stock Keeping Unit (SKU),PROD-TECH-01
+Product_Name,String,Descriptive nomenclature of purchased inventory item,Smartphone Ultra 5G
+Category,String,"Primary merchandise department (Technology, Furniture, Office Supplies)",Technology
+Sub_Category,String,Secondary product classification tier,Phones
+Quantity,Integer,Number of units purchased in single basket,2
+Unit_Price,Float (INR),Catalog list price per unit in Indian Rupees,45000.0
+Unit_Cost,Float (INR),Cost of goods sold (COGS) per inventory unit,31500.0
+Discount_Rate,Float (0.0-0.3),Applied discount percentage off list price,0.10
+Discount_Amount,Float (INR),Total currency deduction applied,9000.0
+Sales_Amount,Float (INR),Net top-line transaction value realized,81000.0
+Shipping_Cost,Float (INR),Logistics courier handling cost incurred,150.0
+Total_Cost,Float (INR),Total expense (COGS + Shipping Overhead),63150.0
+Profit,Float (INR),Net bottom-line commercial gross profit realized,17850.0
+Profit_Margin_Pct,Float (%),Gross profit margin percentage (Profit / Sales),22.04%
+Payment_Mode,String,Settlement tender instrument utilized,Credit Card
+Delivery_Status,String,Final order operational lifecycle status,Delivered

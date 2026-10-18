@@ -1,0 +1,20 @@
+TASK 2: GIT WORKFLOW PRACTICE SUMMARY
+================================================================================
+1. Core Git Commands Verified:
+   - git clone  : Clones remote repo to local filesystem.
+   - git add    : Stages changes from working tree to index.
+   - git commit : Records staged changes with cryptographic hash.
+   - git push   : Pushes local commits to GitHub origin main.
+   - git pull   : Fetches and integrates remote commits with fast-forward.
+
+2. Repository Commit Metrics:
+   - Total Commits to Date : 11
+   - Tracking Remote       : origin/main
+
+3. Project Commit Plan (Exceeds >= 3 Meaningful Commits Requirement):
+   - Commit 1: Setup, Data Sourcing, and ETL Cleaning Pipeline (Tasks 1-3)
+   - Commit 2: Statistical EDA and Matplotlib/Seaborn Visualizations (Tasks 4-5)
+   - Commit 3: Power BI Dashboard & Business Recommendations (Tasks 6-7)
+   - Commit 4: Repository Documentation, Presentation, and PDF Report (Task 8)
+================================================================================
+STATUS: TASK 2 COMPLETED SUCCESSFULLY!

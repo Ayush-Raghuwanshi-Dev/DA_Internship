@@ -1,0 +1,27 @@
+TASK 3: DATASET SELECTION & DATA PREPARATION SUMMARY
+================================================================================
+1. DOMAIN & DATASET PROFILE:
+   - Selected Domain           : Omnichannel E-Commerce & Retail Customer Analytics
+   - Ingestion Source          : raw_ecommerce_sales.csv (1525 rows x 29 cols)
+   - Scope of Attributes       : Transaction ID, Temporal, Geographies, Customer Segments,
+                                 Product SKUs, Financials (Sales, Cost, Profit), Logistics.
+
+2. DEFECT AUDIT & ETL TRANSFORMATIONS:
+   - Obsolete Columns Purged   : ['ETL_Batch_ID', 'Sys_Load_Timestamp', 'Legacy_System_Flag'] (3 columns removed)
+   - Duplicate Orders Removed  : 25 duplicate rows purged
+   - Unlinked Customer Records : 8 records removed
+   - Missing Profits Imputed   : 12 values calculated via Net Sales - Total Cost
+   - Missing Ship Dates Imputed: 10 values imputed via Order_Date + 3 days standard SLA
+
+3. FEATURE ENGINEERING:
+   - Delivery_Days             : Integer turnaround duration in days
+   - Profitability_Status      : High Margin (>=25%), Standard Margin, Loss-Making (<0%)
+   - Order_Size_Bucket         : Single Item (1), Multi-Item (2-5), Bulk Order (6+)
+
+4. POST-ETL DATA HYGIENE METRICS:
+   - Final Validated Records   : 1492 rows x 29 columns
+   - Total Missing Values      : 0 (0.00%)
+   - Total Duplicate Orders    : 0 (0.00%)
+   - Data Authenticity Ratio   : 97.84%
+================================================================================
+STATUS: TASK 3 COMPLETED SUCCESSFULLY!
