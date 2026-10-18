@@ -1,0 +1,51 @@
+TASK 7: BUSINESS INSIGHTS & STRATEGIC RECOMMENDATIONS REPORT
+================================================================================
+
+A. FIVE CORE EMPIRICAL BUSINESS INSIGHTS:
+[INSIGHT 1]: PROFIT ENGINE DISPARITY - TECHNOLOGY VS FURNITURE COMPRESSION
+  Quantitative Evidence: Technology Margin = 25.2% vs Furniture Margin = 9.1%
+  Findings: Technology captures 63.8% of GMV and generates 80.5% of total company profit.
+  Conversely, Furniture captures 32.5% of sales (INR 22.8M) but yields only INR 2.07M in profit
+  due to high shipping freight and uncalibrated promotional discounting (>15%).
+
+[INSIGHT 2]: CORPORATE B2B SEGMENT EXHIBITS 2.7X SUPERIOR BASKET ECONOMICS
+  Quantitative Evidence: Corporate AOV = INR 72,718.73 vs Consumer AOV = INR 26,847.02
+  Findings: Corporate clients purchase multi-item bundles with low price elasticity and exhibit
+  a 21.65% gross margin, contributing 58.0% of national enterprise GMV.
+
+[INSIGHT 3]: REGIONAL TERRITORY POLARIZATION & HIGH-MARGIN CENTRAL NICHE
+  Quantitative Evidence: South (INR 21.1M) & North (INR 16.7M) drive 54.0% of national GMV.
+  Findings: West and South lead national volume, while Central region (Indore/Bhopal) maintains
+  an exceptional 21.49% profit margin with minimal courier overhead, representing an ideal expansion market.
+
+[INSIGHT 4]: QUARTERLY PROCUREMENT CYCLICALITY & +34.8% YOY RECOVERY
+  Quantitative Evidence: +34.8% YoY Revenue Expansion in 2026 over 2025 baseline.
+  Findings: Monthly sales progression demonstrates predictable surges during June and September
+  aligning with enterprise IT budget approvals and annual procurement cycles.
+
+[INSIGHT 5]: MARGIN DESTRUCTION FROM DEEP DISCOUNTING (>20%)
+  Quantitative Evidence: Discounts > 20% drop mean profit from INR 10,941.86 to INR -683.14 per order.
+  Findings: Discounts up to 10% stimulate transaction volume while preserving profitability.
+  However, discounts exceeding 20% destroy gross margin, turning transactions into loss-leaders.
+
+================================================================================
+
+B. STRATEGIC C-SUITE BUSINESS RECOMMENDATIONS:
+[REC-01]: DYNAMIC DISCOUNT GOVERNANCE & MARGIN FLOOR GUARDRAILS FOR FURNITURE
+  Strategic Rationale: Furniture captures INR 22.8M in sales but generates only 9.1% margin.
+  Actionable Policy  :
+    > Cap standalone discretionary discounts on Furniture to 10%.
+    > Introduce conditional bundling: discounts up to 20% on Furniture are permitted ONLY
+      when paired with high-margin Technology peripherals (Monitors, Webcams, Headsets).
+    > Renegotiate regional freight logistics contracts to lower bulky delivery costs.
+  Projected ROI/Impact: Lifts Furniture gross margin from 9.1% to 16.5%, recovering an estimated
+                       INR 1.65M to 2.10M in incremental net profit annually.
+
+[REC-02]: CORPORATE B2B ACCOUNT ACCELERATION & PROCUREMENT PORTAL
+  Strategic Rationale: Corporate buyers generate INR 72.7k AOV and 58% of total revenue.
+  Actionable Policy  :
+    > Deploy a dedicated self-service corporate purchasing portal with invoice credit terms (Net 30/60).
+    > Target mid-market enterprise clusters across Pune, Bengaluru, and Indore.
+    > Assign dedicated account managers to top 15% corporate clients.
+  Projected ROI/Impact: Increases Corporate segment revenue contribution from 58% to 68%,
+                       generating an estimated INR 7.5M in incremental annual high-margin GMV.
